@@ -6,8 +6,8 @@
 # we create an "OBJECT" that can be assigned with a new value (set)
 # (for example my_cached_matrix$set(another_R_matrix)
 # can be listed (obtained, get)(my_cached_matrix$get(),
-# can store his "inverted" values  --called from cacheSolve
-# and can be listed his inverse.   --called from cacheSolve too.
+# can store its "inverted" values  --called from cacheSolve
+# and can be listed its inverse.   --called from cacheSolve too.
 
 makeCacheMatrix <- function(x = matrix()) {
 
